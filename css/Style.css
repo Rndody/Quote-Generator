@@ -1,0 +1,67 @@
+body {
+    min-height: 100vh;
+    background-image: url(../images/vector-MAY-2020-135.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#quote-1-icon,
+#quote-2-icon {
+    /* background-color: rebeccapurple; */
+    width: 2rem;
+    height: 2rem;
+
+
+}
+
+#h-one
+
+{
+   font-family: 'Ultra', serif;
+   filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 0.301));
+   -webkit-filter: drop-shadow(5px 5px 35px rgba(255, 255, 255, 0.605));
+}
+
+#p1 ,
+#generate
+{
+   
+    font-family: 'Caladea', serif;
+
+}
+#generate{
+    /*font-weight: 100;
+    */font-size: small;
+    filter: drop-shadow(5px 5px 20px rgba(255, 255, 255, 0.613));
+    -webkit-filter: drop-shadow(5px 5px 20px rgba(255, 255, 255, 0.482));
+}
+
+#display-quote {
+    font-family: 'Courgette', cursive;
+}
+
+#author-name {
+    font-family: 'Sacramento', cursive;
+    position: relative;
+}
+
+#author-name::before {
+    content: "";
+    font-family: 'Sacramento', cursive;
+    position: absolute;
+    width: 1.5rem;
+    height: .2rem;
+    background-color:white;
+    border-radius:3px ;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+    left: -28px;
+    top:45%;
+}
+
+
+/** font-family: 'Courgette', cursive;  quote
+/*^font-family: 'Sacramento', cursive; author name
+/*!font-family: 'Ultra', serif;  h1 */
