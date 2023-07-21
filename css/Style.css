@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background-image: url(../images/vector-MAY-2020-135.jpg);
+    background-image: url('../images/vector-MAY-2020-135.jpg');
     background-position: center center;
     background-size: cover;
 }
